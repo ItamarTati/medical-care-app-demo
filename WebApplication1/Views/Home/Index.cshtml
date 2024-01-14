@@ -1,8 +1,178 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
-}
-
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+﻿ <section id="home" class="w-full py-12 md:py-24 lg:py-32 bg-gray-800">
+        <div class="container px-4 md:px-6">
+            <div class="grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px]">
+                <img
+                        src="./hero.jpg"
+                        width="1024"
+                        height="512"
+                        alt="Hero"
+                        class="mx-auto aspect-video overflow-hidden rounded-xl object-bottom sm:w-full lg:order-last lg:aspect-square"
+                />
+                <div class="flex flex-col justify-center space-y-4">
+                    <div class="space-y-2">
+                        <h1 class="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none text-white">
+                            Welcome to MedTech AI
+                        </h1>
+                        <p class="max-w-[600px] text-gray-400 md:text-xl">
+                            Revolutionizing healthcare with the power of AI. Experience seamless medical consultations and
+                            treatments.
+                        </p>
+                    </div>
+                    <div class="flex flex-col gap-2 min-[400px]:flex-row">
+                        <button class="inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-primary/90 h-10 px-4 py-2 bg-white text-gray-800">
+                            Learn More
+                        </button>
+                        <button class="inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border bg-background hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2 text-white border-white">
+                            Book Appointment
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="services" class="w-full py-12 md:py-24 lg:py-32 bg-gray-900">
+        <div class="container px-4 md:px-6">
+            <div class="flex flex-col items-center justify-center space-y-4 text-center">
+                <div class="space-y-2">
+                    <h2 class="text-3xl font-bold tracking-tighter sm:text-5xl text-white">Our Services</h2>
+                    <p class="mx-auto max-w-[900px] text-gray-400 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                        Discover our range of AI-powered medical services designed to provide the best healthcare experience.
+                    </p>
+                </div>
+                <div class="grid w-full grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center justify-center gap-8 lg:gap-12">
+                    <div class="rounded-lg border text-card-foreground shadow-sm bg-gray-800" data-v0-t="card">
+                        <div class="flex flex-col space-y-1.5 p-6">
+                            <h3 class="text-2xl font-semibold leading-none tracking-tight text-white">AI-assisted Diagnosis</h3>
+                        </div>
+                        <div class="p-6 text-gray-400">Harness the power of AI to get accurate and fast diagnosis.</div>
+                        <div class="flex items-center p-6">
+                            <button class="inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 underline-offset-4 hover:underline h-10 px-4 py-2 text-white">
+                                Learn More
+                            </button>
+                        </div>
+                    </div>
+                    <div class="rounded-lg border text-card-foreground shadow-sm bg-gray-800" data-v0-t="card">
+                        <div class="flex flex-col space-y-1.5 p-6">
+                            <h3 class="text-2xl font-semibold leading-none tracking-tight text-white">Telemedicine</h3>
+                        </div>
+                        <div class="p-6 text-gray-400">
+                            Consult with our medical professionals from the comfort of your home.
+                        </div>
+                        <div class="flex items-center p-6">
+                            <button class="inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 underline-offset-4 hover:underline h-10 px-4 py-2 text-white">
+                                Learn More
+                            </button>
+                        </div>
+                    </div>
+                    <div class="rounded-lg border text-card-foreground shadow-sm bg-gray-800" data-v0-t="card">
+                        <div class="flex flex-col space-y-1.5 p-6">
+                            <h3 class="text-2xl font-semibold leading-none tracking-tight text-white">Remote Monitoring</h3>
+                        </div>
+                        <div class="p-6 text-gray-400">Get your health monitored remotely with our advanced AI systems.</div>
+                        <div class="flex items-center p-6">
+                            <button class="inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 underline-offset-4 hover:underline h-10 px-4 py-2 text-white">
+                                Learn More
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="about" class="w-full py-12 md:py-24 lg:py-32 bg-gray-800">
+        <div class="container px-4 md:px-6">
+            <div class="flex flex-col items-center justify-center space-y-4 text-center">
+                <div class="space-y-2">
+                    <h2 class="text-3xl font-bold tracking-tighter sm:text-5xl text-white">About Us</h2>
+                    <p class="mx-auto max-w-[900px] text-gray-400 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                        Learn more about our mission, values, and the team behind MedTech AI.
+                    </p>
+                </div>
+                <div class="flex flex-col gap-2 min-[400px]:flex-row">
+                    <button class="inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-primary/90 h-10 px-4 py-2 bg-white text-gray-800">
+                        Our Mission
+                    </button>
+                    <button class="inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border bg-background hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2 text-white border-white">
+                        Meet the Team
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="blog" class="w-full py-12 md:py-24 lg:py-32 bg-gray-900">
+        <div class="container px-4 md:px-6">
+            <div class="flex flex-col items-center justify-center space-y-4 text-center">
+                <div class="space-y-2">
+                    <h2 class="text-3xl font-bold tracking-tighter sm:text-5xl text-white">Our Blog</h2>
+                    <p class="mx-auto max-w-[900px] text-gray-400 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                        Stay updated with the latest news and articles from our team.
+                    </p>
+                </div>
+                <div class="grid w-full grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center justify-center gap-8 lg:gap-12">
+                    <div class="rounded-lg border text-card-foreground shadow-sm bg-gray-800" data-v0-t="card">
+                        <div class="flex flex-col space-y-1.5 p-6">
+                            <h3 class="text-2xl font-semibold leading-none tracking-tight text-white">
+                                The Future of AI in Healthcare
+                            </h3>
+                        </div>
+                        <div class="p-6 text-gray-400">Discover how AI is revolutionizing the healthcare industry.</div>
+                        <div class="flex items-center p-6">
+                            <button class="inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 underline-offset-4 hover:underline h-10 px-4 py-2 text-white">
+                                Read More
+                            </button>
+                        </div>
+                    </div>
+                    <div class="rounded-lg border text-card-foreground shadow-sm bg-gray-800" data-v0-t="card">
+                        <div class="flex flex-col space-y-1.5 p-6">
+                            <h3 class="text-2xl font-semibold leading-none tracking-tight text-white">
+                                Telemedicine: The New Normal
+                            </h3>
+                        </div>
+                        <div class="p-6 text-gray-400">
+                            Learn how telemedicine is transforming the way we access healthcare services.
+                        </div>
+                        <div class="flex items-center p-6">
+                            <button class="inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 underline-offset-4 hover:underline h-10 px-4 py-2 text-white">
+                                Read More
+                            </button>
+                        </div>
+                    </div>
+                    <div class="rounded-lg border text-card-foreground shadow-sm bg-gray-800" data-v0-t="card">
+                        <div class="flex flex-col space-y-1.5 p-6">
+                            <h3 class="text-2xl font-semibold leading-none tracking-tight text-white">
+                                Remote Monitoring: A Game Changer
+                            </h3>
+                        </div>
+                        <div class="p-6 text-gray-400">
+                            Explore the benefits of remote health monitoring for patients and healthcare providers.
+                        </div>
+                        <div class="flex items-center p-6">
+                            <button class="inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 underline-offset-4 hover:underline h-10 px-4 py-2 text-white">
+                                Read More
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="w-full py-12 md:py-24 lg:py-32 bg-gray-800">
+        <div class="container px-4 md:px-6">
+            <div class="flex flex-col items-center justify-center space-y-4 text-center">
+                <div class="space-y-2">
+                    <h2 class="text-3xl font-bold tracking-tighter sm:text-5xl text-white">Contact Us</h2>
+                    <p class="mx-auto max-w-[900px] text-gray-400 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                        Have any questions or inquiries? Feel free to reach out to us.
+                    </p>
+                </div>
+                <div class="flex flex-col gap-2 min-[400px]:flex-row">
+                    <button class="inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-primary/90 h-10 px-4 py-2 bg-white text-gray-800">
+                        Contact Us
+                    </button>
+                    <button class="inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border bg-background hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2 text-white border-white">
+                        FAQs
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
