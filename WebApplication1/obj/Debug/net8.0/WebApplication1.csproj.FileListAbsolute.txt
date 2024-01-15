@@ -29,3 +29,8 @@ C:\Users\ElkeD\projects\medical-care-app-demo\WebApplication1\obj\Debug\net8.0\r
 C:\Users\ElkeD\projects\medical-care-app-demo\WebApplication1\obj\Debug\net8.0\WebApplication1.pdb
 C:\Users\ElkeD\projects\medical-care-app-demo\WebApplication1\obj\Debug\net8.0\WebApplication1.genruntimeconfig.cache
 C:\Users\ElkeD\projects\medical-care-app-demo\WebApplication1\obj\Debug\net8.0\ref\WebApplication1.dll
+C:\Users\ElkeD\projects\medical-care-app-demo\WebApplication1\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Users\ElkeD\projects\medical-care-app-demo\WebApplication1\bin\Debug\net8.0\MailKit.dll
+C:\Users\ElkeD\projects\medical-care-app-demo\WebApplication1\bin\Debug\net8.0\MimeKit.dll
+C:\Users\ElkeD\projects\medical-care-app-demo\WebApplication1\obj\Debug\net8.0\WebApplication1.csproj.AssemblyReference.cache
+C:\Users\ElkeD\projects\medical-care-app-demo\WebApplication1\obj\Debug\net8.0\WebApplication1.csproj.CopyComplete
