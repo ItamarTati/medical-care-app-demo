@@ -6,8 +6,14 @@ namespace WebApplication1.Services
     {
         public void SendEmail(string to, string subject, string body)
         {
+            var environmentEmail = Environment.GetEnvironmentVariable("email");
+            var environmentUsername = Environment.GetEnvironmentVariable("username");
+            var environmentPassword = Environment.GetEnvironmentVariable("password");
+            var environmentSMTP = Environment.GetEnvironmentVariable("smtp");
+
+
             var message = new MimeMessage();
-            message.From.Add(new MailboxAddress("Your Name", "your-email@example.com"));
+            message.From.Add(new MailboxAddress("Itamar Tati", environmentEmail));
             message.To.Add(new MailboxAddress("", to));
             message.Subject = subject;
 
@@ -18,8 +24,8 @@ namespace WebApplication1.Services
 
             using (var client = new SmtpClient())
             {
-                client.Connect("smtp.example.com", 587, false);
-                client.Authenticate("your-username", "your-password");
+                client.Connect(environmentSMTP, 587, false);
+                client.Authenticate(environmentUsername, environmentPassword);
                 client.Send(message);
                 client.Disconnect(true);
             }
