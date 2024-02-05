@@ -2,7 +2,7 @@
 using MailKit.Net.Smtp;
 namespace WebApplication1.Services
 {
-    public class EmailService
+    public class EmailService: IEmailService
     {
         public void SendEmail(string to, string subject, string body)
         {

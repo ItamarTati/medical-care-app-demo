@@ -8,9 +8,9 @@ namespace WebApplication1.Controllers;
 public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
-    private readonly EmailService _emailService;
+    private readonly IEmailService _emailService;
 
-    public HomeController(ILogger<HomeController> logger, EmailService emailService)
+    public HomeController(ILogger<HomeController> logger, IEmailService emailService)
     {
         _logger = logger;
         _emailService = emailService;
