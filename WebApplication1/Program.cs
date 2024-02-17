@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Http.HttpResults;
 using WebApplication1.Services;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -29,3 +30,8 @@ app.MapControllerRoute(
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
 app.Run();
+
+
+//Telemedicine Platform: Develop a platform that connects patients with healthcare providers remotely for virtual consultations, prescriptions, and monitoring of health conditions.
+
+//Electronic Health Records (EHR) System: Create software for healthcare providers to manage patient records, appointments, billing, and other administrative tasks electronically.
